@@ -60,7 +60,7 @@ Custom Styles
 */
 
 body {
-    background: #F4F4F4;
+    background: #F7F7F7;
     background-image: url("../images/mountain_blurlight.jpg");
     background-repeat: no-repeat;
     background-position-y: -114px;
@@ -78,8 +78,13 @@ span {
 }
 
 .transparent {
-    background: rgba(255, 255, 255, 0.4);
-    margin-right: 66%
+    background: rgba(125, 255, 255, 0.4);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    width: 20%;
+    margin-top: 1%;
+    margin-left: 5.5%;
+
 }
 
 /*
@@ -106,8 +111,10 @@ a:hover {
 
 .logo a:hover {
     color: #0AAAFF;
-    border-left: 3px solid #04477A;
+    border-top: 3px solid #04477A;
+    border-bottom: 3px solid #04477A;
     border-right: 3px solid #04477A;
+    border-left: 3px solid #04477A;
 }
 
 .about a {

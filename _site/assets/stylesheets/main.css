@@ -23,25 +23,31 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
+
 ol, ul {
     list-style: none;
 }
+
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -55,9 +61,11 @@ Custom Styles
 
 body {
     background: #F4F4F4;
+    background-image: url("../images/mountain_blurlight.jpg");
+    background-repeat: no-repeat;
+    background-position-y: -114px;
     color: #022A47;
-    font: 300 16px/22px
-"Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 p {
@@ -67,6 +75,11 @@ p {
 span {
     color: #022A47;
     font-weight: 500;
+}
+
+.transparent {
+    background: rgba(255, 255, 255, 0.4);
+    margin-right: 66%
 }
 
 /*
@@ -153,7 +166,6 @@ div {
     padding-bottom: 14px;
 }
 
-
 /*
 ==============================================================
 Clearfix
@@ -207,7 +219,6 @@ Home
     line-height: 27px;
     font-size: 24px;
 }
-
 
 /*
 ==============================================================

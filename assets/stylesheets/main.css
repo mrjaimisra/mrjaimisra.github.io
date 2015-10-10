@@ -61,8 +61,9 @@ Custom Styles
 
 body {
     background: #F7F7F7;
-    background-image: url("../images/mountain_blurlight.jpg");
+    background-image: url("../images/IMG_1669.jpg");
     background-repeat: no-repeat;
+    background-size: 110%;
     background-position-y: -114px;
     color: #022A47;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -70,6 +71,8 @@ body {
 
 p {
     font-size: 22px;
+    font-weight: 500;
+
 }
 
 span {
@@ -78,7 +81,7 @@ span {
 }
 
 .transparent {
-    background: rgba(125, 255, 255, 0.4);
+    background: rgba(179, 250, 248, 0.8);
     border-radius: 10px;
     padding-bottom: 20px;
     width: 20%;

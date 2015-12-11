@@ -89,8 +89,8 @@ Navbox
 .transparent {
     background: rgba(248, 248, 248, 0.8);
     border-radius: 10px;
-    padding-bottom: 20px;
-    width: 20%;
+    padding-bottom: 1%;
+    width: 22%;
     margin-top: 1%;
     margin-left: 5.5%;
 
@@ -161,12 +161,31 @@ img {
 
 /*
 ==============================================================
+Icons
+==============================================================
+*/
+
+.social-icon {
+    display: inline;
+}
+
+#turing-logo {
+    position: relative;
+    top: 7px;
+    height: 40px;
+    width: 40px;
+    border: none;
+}
+
+
+/*
+==============================================================
 Grid
 ==============================================================
 */
 
 *,
-*:before
+*:before,
 *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -234,6 +253,13 @@ Home
     color: #0AAAFF;
     line-height: 27px;
     font-size: 24px;
+}
+
+#studied {
+    color: #0AAAFF;
+    font-weight: 300;
+    position: relative;
+    top: -8px;
 }
 
 /*
